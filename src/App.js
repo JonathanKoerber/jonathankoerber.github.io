@@ -21,10 +21,10 @@ const rightColum = styled.div`
 
 function App() {
   return (
-    <HushRouter basename="/portfolio">
+    <HushRouter basename="/">
       <div style={{ marginTop: 40, marginBottom: 40 }}>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<div><NavAside/><About/><rightColum/></div>} />
           <Route path="/profile/:name" element={<Profile/>} />
           <Route path="/resume" element={<div><NavAside/><Resume/><rightColum/></div>}/>
