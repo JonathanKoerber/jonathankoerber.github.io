@@ -21,8 +21,8 @@ const osProjects = [
         type: "Personal",
         role: "Software Engineer",
         body: `This CLI tool provides functionality for repository management and organization.`,
-        websiteLink: "https://virufy.org/en/",
-        githubLink: "https://github.com/virufy/study"
+        websiteLink: "https://github.com/JonathanKoerber/template_repos",
+        githubLink: "https://github.com/JonathanKoerber/template_repos"
     
         },
     {
@@ -71,7 +71,7 @@ const osProjects = [
      type: "Bachlors Capstone WGU ",
      role: "Student",
      body: `This started as my capstone project at WGU. It uses the Flask framework with Handlebars to build UI templates with an SQLite database. Search functionalty was added later using ElasticSearch.`,
-     websiteLink: "",
+     websiteLink: "https://github.com/JonathanKoerber/wgu_capstone",
      githubLink: "https://github.com/JonathanKoerber/wgu_capstone"
      }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as HushRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 
 import NavAside from "./components/NavAside";
 import Home from "./pages/Home";
@@ -21,7 +21,7 @@ const rightColum = styled.div`
 
 function App() {
   return (
-    <HushRouter basename="/portfolio">
+    <HashRouter >
       <div style={{ marginTop: 40, marginBottom: 40 }}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -32,7 +32,7 @@ function App() {
           <Route path="/cs_504_report" element={<CS_504_report/>} />
         </Routes>
       </div>
-    </HushRouter>
+    </HashRouter>
   );
 }
 
