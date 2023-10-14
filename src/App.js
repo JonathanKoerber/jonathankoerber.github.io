@@ -21,7 +21,7 @@ const rightColum = styled.div`
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/portfolio">
       <div style={{ marginTop: 40, marginBottom: 40 }}>
         <Routes>
           <Route path="/" element={<Home />} />
