@@ -56,15 +56,20 @@ _Bachelor of Science; Software Development_
 
 ### EXPERIENCE
 
-#### City University – Seattle, WA2023 – Present
+#### City University – Seattle, WA 2023 – Present
 
 _Student Assistant, School of Technology and Computing_
 
 - Work under supervision to help Program Directors, Program managers, Subject Matter Experts (SMEs), and Instructors perform their duties
 - Tutor student one-on-one and in small groups helping to mentor students in the class material
 - Assist with managing instructional materials and Learning Management System (LMS) shells and resolve technology-related issues students experience in class
+#### Virufy - Remote Seattle, WA 2023 – Present
+_Volunteer Software Developer_
 
-#### FareStart – Seattle, WA2017 – 2023
+- Spearheaded the development of automation solutions, significantly improving efficiency in human resources projects.
+- Established a comprehensive development container, enhancing the consistency and efficiency of the development environment and facilitating smoother project workflows.
+- Assisted in debugging and troubleshooting, ensuring a high-quality and error-free application.
+#### FareStart – Seattle, WA 2017 – 2023
 
 _Cook_
 
@@ -73,7 +78,7 @@ _Cook_
 - Translate business processes into a Salesforce prototype to demonstrate the value of system
 - Create scripts in Python to processes CSV files clean data
 
-#### iSeaTree – Seattle, WA2020 – 2021
+#### iSeaTree – Seattle, WA 2020 – 2021
 
 _Volunteer Contributor_
 

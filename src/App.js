@@ -11,7 +11,7 @@ import School from "./pages/School";
 import CS_504_report from "./pages/cs_504_report";
 import styled from "styled-components";
 
-const rightColum = styled.div`
+const ReactightColum = styled.div`
     padding: 16px;
     margin: 16px;
     width: 100%;

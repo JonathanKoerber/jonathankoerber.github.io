@@ -9,33 +9,30 @@ const aboutText = `### Hi there 👋
 
 
 
-I'm thrilled to connect with you and discuss your technology needs. As a dedicated student pursuing a Master's degree in Computer Science, I have a natural curiosity for understanding systems. My focus lies in delving into the "why," "what," and "who" aspects, and then devising a comprehensive plan for their implementation.
+Has generative AI replaced us all? Not yet. While we've made significant strides with Large Language Models (LLMs), these powerful resources haven't replaced humans' unique insights and capabilities. Our comparative lack of computational capacity is, in fact, our greatest strength. As technology floods us with vast amounts of data, it's people like me who can distill meaning from the noise.
 
-I strongly believe in taking a rigorous approach throughout all stages of development. By doing so, I can ensure the creation of a versatile product that precisely meets the unique requirements of my clients. I am committed to delivering exceptional results by leveraging my technical skills, analytical mindset, and problem-solving abilities.
+I'm an MSCS student at City University of Seattle, specializing in computer science and driven by the pursuit of a deep understanding of CS concepts. My journey as a teaching assistant in the School of Technology and Computing at City University of Seattle has been transformative. Here, I connect with students and actively support faculty across diverse projects, sharpening my ability to streamline processes and address real-world challenges head-on.
 
-I am passionate about exploring emerging technologies and staying up-to-date with the latest industry trends. This allows me to constantly broaden my knowledge and apply innovative solutions to real-world challenges. Collaboration and effective communication are vital to me, as I thrive in team environments where ideas are shared and refined.
+What sets me apart is my willingness to invest in software engineering efforts to build enhancements that directly lead to measurable results. In one example, I leveraged my expertise in software development and Rust to create a powerful CLI tool. This project started as a fun weekend experiment but soon translated into remarkable productivity gains. The tool effectively manages our repository and automates content delivery to GitHub Classrooms, saving valuable time and energy for both me and my team.
 
-Let's connect and discuss how I can contribute to your technology initiatives. I'm eager to learn from your expertise and work together to drive meaningful progress in the ever-evolving world of computer science.
+In addition to my proficiency in JavaScript and Python, I have ventured into newer territories such as Power Apps and Power Automate. This journey outside my comfort zone has allowed me to develop creative solutions for real-world problems, showcasing my versatility and adaptability.
 
-Feel free to reach out, and let's embark on this exciting journey together!
+I'm actively seeking a role where I can apply my problem-solving abilities, effective communication skills, and collaborative spirit to deliver exceptional results that align with the unique needs of clients and stakeholders. Let's connect and explore how we can join forces to drive meaningful progress in the ever-evolving landscape of computer science. Reach out, and together, let's embark on this exciting journey!
 
 Best regards,
 
 Jonathan Koerber
 
 - 🔭 I’m currently working on ...
-  Firefox addOn to create a cover letter from a LinkedIn job post. 
+    A CLI tool to help manage github classroom assignments in Rust
 - 🌱 I’m currently learning ...
-  Rust... Trying to learn Rust by building a CLI tools
-- 👯 I’m looking to collaborate on ...
+  Rust... MS Power Platform because who has time to code everything
+- 👯 I’m looking to collaborate on ... open source projects
   Innovative Technology for a Smarter Future
-  <!---
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
--- 📫 How to reach me: jonathankoerber@gmail.com
-
-- ⚡ Fun fact: ...
--->`
+- 🤔 I’m looking for help with ... navigating the job market
+- 💬 Ask me about ... baking great bread and pizza
+- 📫 How to reach me: jonathankoerber@gmail.com
+- ⚡ Fun fact: ... fascinated with history`
 const ColumnWrapper = styled.div`
     display: flex;
     flex-direction: row;
@@ -65,7 +62,7 @@ const ColumnWrapper = styled.div`
 const Column  = styled.div`
     flex: 1;
     padding: 16px;
-    margin: 8ps;
+    margin: 8px;
 `;
 const MainColumn = styled.div`
     flex: 3;

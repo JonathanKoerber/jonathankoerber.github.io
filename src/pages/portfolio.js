@@ -84,23 +84,26 @@ const ColumnWrapper = styled.div`
 const Column  = styled.div`
     flex: 1;
     padding: 16px;
-    margin: 8ps;
+    margin: 8px;
 `;
 const MainColumn = styled.div`
-    flex: 3;
-    width: 66%;
-    padding: 16px;
+    width: 100%;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
 `;
-const rightColum = styled.div`
-    padding: 16px;
-    margin: 16px;
-    width: 33%;
-    position: fixed;
-    height: 100%;
+const RightColum = styled.div`
+  // midia query for mobile devices larger than 575px
+    @media only screen and (max-width: 1000px) {
+      padding: 16px;
+      margin: 16px;
+      width: 33%;
+      position: fixed;
+      height: 100%;
+      background-color: #f5f5f5;
+    }
 `;
 const Portfolio = () => (
     <ColumnWrapper> 
@@ -111,7 +114,7 @@ const Portfolio = () => (
     ))}
     </MainColumn>
     <Column>
- <rightColum/>
+ <RightColum/>
  </Column>
   </ColumnWrapper>
 );

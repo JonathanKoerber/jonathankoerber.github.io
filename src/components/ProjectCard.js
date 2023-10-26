@@ -3,6 +3,7 @@ import Tilt from "react-parallax-tilt";
 
 const CardContainer = styled.div`
   margin: 1em;
+  width: 20em;
 `;
 const CardWrapper = styled.div`
   display: grid;
