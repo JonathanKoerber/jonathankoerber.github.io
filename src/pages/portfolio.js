@@ -96,13 +96,12 @@ const MainColumn = styled.div`
 `;
 const RightColum = styled.div`
   // midia query for mobile devices larger than 575px
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (min-width: 1000px) {
       padding: 16px;
       margin: 16px;
       width: 33%;
       position: fixed;
       height: 100%;
-      background-color: #f5f5f5;
     }
 `;
 const Portfolio = () => (
