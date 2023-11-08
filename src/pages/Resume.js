@@ -17,81 +17,101 @@ const MainColumn = styled.div`
     margin-right: 33%
 `;
 
-const resume = `
-# JONATHAN KOERBER 
+const resume = `## Jonathan Koerber
+
+Seattle, 98116 | 2068179893
+
+koerberjonathan@cityuniversity.edu
 
 
-Seattle, WA - (206) 817-9893 - koerberjonathan@cityuniversity.edu
+I'm an MSCS student at City U Seattle, working as a teaching assistant. Here, I apply critical thinking and technical skills to provide end-user support to students and faculty. I handle service requests by individuals to share my technical knowledge and provide IT support.
 
-## EDUCATION
+**EDUCATION**
 
-### City University of Seattle – Seattle, WA June 2024
+**Master's Degree - Computer Science** Jan 2023 - Jun 2024 (Expected)
 
-_Master of Science in Computer Science_
+_City University of Seattle, Seattle, WA_
 
-### Western Governors University – Seattle, WA May 2020
+**Bachelor of Science (B.S.) - Software Development** May 2016 - Jun 2020
 
-_Bachelor of Science; Software Development_
+_Western Governors University, Seattle, WA_
 
-#### CERTIFICATIONS
+**EXPERIENCE**
 
-* IT Automation with Python-Google 
-* Scientific Computing with Python - Free Code Camp
-* JavaScript Algorithms and Data Structures - Free Code Camp
-* Microsoft MTA-396 Database Foundations 
-* CIW Advanced HTML5 and CSS3 Specialist 
-* CompTIA Project +
- 
+**Teaching Assistant - Part Time** Jun 2023 - Present
 
-#### TECHNICAL SKILLS
+_City University of Seattle, Seattle, WA_
 
-* Python3 - Flask Django
-* JavaScript - REACT - HTML - CSS
-* Rust
-* Java 
-* SQL - MySQL - PostgreSQL
-* CI/CD - Docker
-* Salesforce Microsoft 365
-* GIT - GitHub
+- Developed technical curriculum for enhanced student learning.
+- Built MS Power Platform help desk application to streamline IT operations.
+- Provided technical application end-user support to students.
+- Successfully tested and troubleshoot the Data Science curriculum using Python.
+- Collaborated with educational stakeholders to improve workflows and enhance student engagement.
+- Provide positive verbal and written communication to a diverse student base.
+- Managed learning management systems and instructional materials for an organized learning environment.
 
-### EXPERIENCE
+**Cook -Trainer** Jul 2017 - May 2023
 
-#### City University – Seattle, WA 2023 – Present
+_FareStart, Seattle_
 
-_Student Assistant, School of Technology and Computing_
+- Work independently to prioritize multiple tasks by thinking strategically and problem-solving.
+- Translated complex business processes into an interactive Salesforce prototype, demonstrating system value to stakeholders.
+- Was a versatile part of a multifunctional team.
+- Innovated recipes and create standard operating procedures to enhance product quality and customer satisfaction, aligning with industry best practices
 
-- Work under supervision to help Program Directors, Program managers, Subject Matter Experts (SMEs), and Instructors perform their duties
-- Tutor student one-on-one and in small groups helping to mentor students in the class material
-- Assist with managing instructional materials and Learning Management System (LMS) shells and resolve technology-related issues students experience in class
-#### Virufy - Remote Seattle, WA 2023 – Present
-_Volunteer Software Developer_
+**SKILLS**
 
-- Spearheaded the development of automation solutions, significantly improving efficiency in human resources projects.
-- Established a comprehensive development container, enhancing the consistency and efficiency of the development environment and facilitating smoother project workflows.
-- Assisted in debugging and troubleshooting, ensuring a high-quality and error-free application.
-#### FareStart – Seattle, WA 2017 – 2023
+**Intermediate in:** Python3, JavaScript, SQL, Project Management, Low Code, Git
 
-_Cook_
+**Basic in:** Rust, Java, Bash, AWS
 
-- Mentor junior staff and students in baking methods and application of food science
-- Lead the development on new recipes procedures in accordance of industry best practices
-- Translate business processes into a Salesforce prototype to demonstrate the value of system
-- Create scripts in Python to processes CSV files clean data
+**LICENSES & CERTIFICATIONS**
 
-#### iSeaTree – Seattle, WA 2020 – 2021
+**IT Automation with Python** 2021
 
-_Volunteer Contributor_
+_Google_
 
-- Took on ownership for development of location service component in app
-- Responded to reported bug issues, found root cause and implemented fix
-- Monitored and upgraded project dependency for Expo, React Native and Cloud Firestore
+**JavaScript Algorithms and Data Structures** 2021
 
-#### Bezar Studio - Seattle, WA 2019
+_FreeCodeCame_
 
-_Volunteer Web Developer_ (2)
+**Scientific Computing with Python** 2021
 
-- Owned software development life cycle for a personal portfolio
-- Transformed wireframes from client into a prototype, then into a web app`
+_FreeCodeCamp_
+
+**ITIL Foundation** 2018
+
+_AXELOS Global Best Practice_
+
+**Project +** 2017
+
+_CompTIA_
+
+**MTA-396 Database Foundations** 2016
+
+_Microsoft_
+
+**CIW Advanced HTLM5 and CSS3** 2016
+
+_CIW_
+
+**VOLUNTEER**
+
+**Software Developer** Jun 2023 - Present
+
+_Virufy_
+
+- Development automation in Google Workspace that automated checking names against TSDB, significantly improving efficiency in human resources projects.
+- I have demonstrated my organizational skills by developing a Docker development container to improve the developer experience.
+- Assisted in debugging and troubleshooting React JavaScript application.
+
+**Software Engenier** Nov 2020 - Oct 2021
+
+_iSeaTree_
+
+- Developed a vital location service component, ensuring seamless integration for an enhanced user experience.
+- Swiftly resolved reported bugs by identifying root causes and implementing effective fixes.
+- Own the leadership of upgraded project dependencies, ensuring optimal performance and security.`
 
 
 const Resume = () => {
