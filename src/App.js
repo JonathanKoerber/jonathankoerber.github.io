@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Portfolio from "./pages/portfolio";
 import Resume from "./pages/Resume";
-import School from "./pages/School";
+
 import CS_504_report from "./pages/cs_504_report";
 import styled from "styled-components";
 

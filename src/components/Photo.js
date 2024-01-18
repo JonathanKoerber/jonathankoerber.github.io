@@ -46,7 +46,7 @@ const Photo = (props) => {
         <Wrapper>
             <ImageSmall src={headshot} />
             <Text>
-                Jonathan Koerber
+                Jonathan
             </Text>
         </Wrapper>
         );
