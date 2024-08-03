@@ -83,7 +83,7 @@ const ColumnWrapper = styled.div`
 `;
 const Column  = styled.div`
     flex: 1;
-    padding: 16px;
+    //padding: 16px;
     margin: 8px;
 `;
 const MainColumn = styled.div`
@@ -95,7 +95,6 @@ const MainColumn = styled.div`
 
 `;
 const RightColum = styled.div`
-  // midia query for mobile devices larger than 575px
     @media only screen and (min-width: 1000px) {
       padding: 16px;
       margin: 16px;
