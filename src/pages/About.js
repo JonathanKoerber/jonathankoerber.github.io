@@ -48,15 +48,15 @@ const ColumnWrapper = styled.div`
 }
 
 /* Medium desktops */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 950px) and (max-width: 991px) {
   /* CSS for medium desktops */
-  margin: 0 10% 0 20%;
+  margin: 0 5% 0 20%;
 }
 
 /* Large desktops and beyond */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1050px) {
   /* CSS for large desktops and beyond */
-    margin: 0 30%  0 20%;
+    margin: 0 20%  0 20%;
 }
 `;
 const Column  = styled.div`
@@ -70,7 +70,7 @@ const MainColumn = styled.div`
     padding: 16px;
 `;
 const About = () => (
-    <ColumnWrapper> 
+    <ColumnWrapper>
   <MainColumn>
     <ReactMarkdown>
     {aboutText}
