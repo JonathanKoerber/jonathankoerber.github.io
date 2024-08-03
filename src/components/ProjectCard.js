@@ -34,7 +34,7 @@ const CardImage = styled.div`
 
 const CardTextWrapper = styled.div`
   grid-area: text;
-  margin: 25px;
+  margin: 2px;
 `;
 
 const CardTextDate = styled.span`

@@ -23,7 +23,7 @@ const osProjects = [
         body: `This CLI tool provides functionality for repository management and organization.`,
         websiteLink: "https://github.com/JonathanKoerber/template_repos",
         githubLink: "https://github.com/JonathanKoerber/template_repos"
-    
+
         },
     {
     imgUrl: volunteer,
@@ -44,7 +44,7 @@ const osProjects = [
         body: `This project is the coding portion of the final project for the course. It is a REST API authentication service. The backend is written in Python using the Flask framework, using a MySQL database that Adminer administers.`,
         websiteLink: "https://github.com/JonathanKoerber/CS504_groupproject",
         githubLink: "https://github.com/JonathanKoerber/CS504_groupproject"
-    
+
         },
     {
         imgUrl: dns_pic,
@@ -54,7 +54,7 @@ const osProjects = [
         body: `This project I created to test lookup functionality of diffrent dada types. It is a REST API using Flask.`,
         websiteLink: "https://github.com/JonathanKoerber/dns_server",
         githubLink: "https://github.com/JonathanKoerber/dns_server"
-    
+
         },
     {
     imgUrl:open_source,
@@ -88,7 +88,7 @@ const Column  = styled.div`
 `;
 const MainColumn = styled.div`
     width: 100%;
-    padding: 10px;
+    //padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -105,9 +105,9 @@ const RightColum = styled.div`
     }
 `;
 const Portfolio = () => (
-    <ColumnWrapper> 
+    <ColumnWrapper>
     <MainColumn>
-  
+
     {osProjects.map((project, index) => (
         <ProjectCard key={index} {...project} />
     ))}
@@ -119,5 +119,4 @@ const Portfolio = () => (
 );
 
 export default Portfolio;
-                                                     
-                                
+
