@@ -3,7 +3,6 @@ import Tilt from "react-parallax-tilt";
 
 const CardContainer = styled.div`
   margin: 1em;
-  width: 20em;
 `;
 const CardWrapper = styled.div`
   display: grid;
@@ -106,7 +105,7 @@ return (
             <CardWrapper>
             <CardImage style={{ backgroundImage: `url(${imgUrl})` }} />
               <CardTextWrapper>
-               
+
                 <CardTextTitle>{title}</CardTextTitle>
                 <CardTextDate>Type: {type}</CardTextDate>
                 <br/>
@@ -134,7 +133,7 @@ return (
                 </CardStats>
               </CardStatWrapper>
             </CardWrapper>
-    </Tilt> 
+    </Tilt>
     </CardLink>
 </CardContainer>
 );

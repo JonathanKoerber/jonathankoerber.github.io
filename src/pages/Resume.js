@@ -1,133 +1,103 @@
 import React, {useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import styled from "styled-components";
+import resume_1 from '../pages-markdown/resume.md'
 
 
 
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    margin: 0 20% 0 20%;
+    margin: 0 5% 0 20%;
 `;
 
 const MainColumn = styled.div`
     flex: 3;
     width: 66%;
     padding: 16px;
-    margin-right: 33%
+    margin-right: 33%;
+    @media (max-width: 1068px) {
+        margin-right: 5%;
+        //width: 100%;
+    }
 `;
 
-const resume = `## Jonathan Koerber
+const resume = `
+---
 
-Seattle, 98116 | 2068179893
+# Jonathan Koerber
 
-koerberjonathan@cityuniversity.edu
+Seattle, WA 98116
+____
 
-
-I'm an MSCS student at City U Seattle, working as a teaching assistant. Here, I apply critical thinking and technical skills to provide end-user support to students and faculty. I handle service requests by individuals to share my technical knowledge and provide IT support.
+>I'm an MSCS student at City U Seattle and work as a teaching assistant, where I apply critical thinking and technical knowledge to provide end-user support to students and faculty. My role involves connecting with individuals to share my technical expertise and enhance their computer skills.
 
 **EDUCATION**
+______
+**Master of Science, Computer Science**, May 2025(expected)
 
-**Master's Degree - Computer Science** Jan 2023 - Jun 2024 (Expected)
+ City University , Seattle, WA
 
-_City University of Seattle, Seattle, WA_
+**Bachelor of Science, Software Development**, May 2020
 
-**Bachelor of Science (B.S.) - Software Development** May 2016 - Jun 2020
-
-_Western Governors University, Seattle, WA_
+ Western Governors University, Salt Lake City, UT
 
 **EXPERIENCE**
+_______
+#### SWE Intern - Part Time,  June 2024 - Present
+**Open Stack** Remote                  
 
-**Teaching Assistant - Part Time** Jun 2023 - Present
+> - Collaborated with a small team to implement the OpenAPI specification on the Manila shared file system API.
+> - Pushed patches to ensure the Zull CI/CD pipeline ran successfully will all functional and unit tests were passing.
+> - Worked with senior developers to ensure 100% validation of API requests increasing the reliability of service
 
-_City University of Seattle, Seattle, WA_
+#### Teaching Assistant—Part Time, June 2023- Present
+**City University of Seattle**, Seattle, WA
 
-- Developed technical curriculum for enhanced student learning.
-- Built MS Power Platform help desk application to streamline IT operations.
-- Provided technical application end-user support to students.
-- Successfully tested and troubleshoot the Data Science curriculum using Python.
-- Collaborated with educational stakeholders to improve workflows and enhance student engagement.
-- Provide positive verbal and written communication to a diverse student base.
-- Managed learning management systems and instructional materials for an organized learning environment.
+> - Supported up to 60 students each quarter across three classes, enhancing their understanding of technologies such as machine learning, web development, and core computer science topics.
+> - Tested and troubleshot technical curricula for data science, Tableau, and Microsoft Power Platform, leading to a 90% reduction in technical issues reported by students.
+> - Organized and led Data Science Club and MeetUp SDE Skills events, increasing student participation by 45% and fostering a collaborative learning environment
+> - Connected with a diverse student body, delivering hands-on support in graduate and doctoral-level courses.
+> - Managed Learning Management System (LMS) and instructional materials for an organized learning environment.
 
-**Cook -Trainer** Jul 2017 - May 2023
+#### Chef Trainer—Full Time, July 2017 - May 2023
+**FareStart**, Seattle WA
 
-_FareStart, Seattle_
+> - Collaborated with a multifunctional team to improve processes within the production kitchen, contributing to the production of over 5 million meals for emergency shelters during the pandemic.
+> - Delivered hands-on training to at-risk populations returning to the workforce.
+> - Innovated recipes and streamlined operations to enhance product quality and customer satisfaction, aligning with industry best practices.
 
-- Work independently to prioritize multiple tasks by thinking strategically and problem-solving.
-- Translated complex business processes into an interactive Salesforce prototype, demonstrating system value to stakeholders.
-- Was a versatile part of a multifunctional team.
-- Innovated recipes and create standard operating procedures to enhance product quality and customer satisfaction, aligning with industry best practices
+#### SKILLS
+______
+Python3, Pandas, NumPy, JavaScript, MySQL,
+Low Code, Git, Gerrit, Linux, Bash, AWS
+Project Management, 
 
-**SKILLS**
+#### CERTIFICATIONS
+_______
+**Project Management Certification**, \t2024 _Google_
 
-**Intermediate in:** Python3, JavaScript, SQL, Project Management, Low Code, Git
+**IT Automation with Python**,\t2021 _Google_
 
-**Basic in:** Rust, Java, Bash, AWS
+**JavaScript Algorithms and Data Structures**,\t2021, _FreeCodeCame_
 
-**LICENSES & CERTIFICATIONS**
-
-**IT Automation with Python** 2021
-
-_Google_
-
-**JavaScript Algorithms and Data Structures** 2021
-
-_FreeCodeCame_
-
-**Scientific Computing with Python** 2021
-
-_FreeCodeCamp_
-
-**ITIL Foundation** 2018
-
-_AXELOS Global Best Practice_
-
-**Project +** 2017
-
-_CompTIA_
-
-**MTA-396 Database Foundations** 2016
-
-_Microsoft_
-
-**CIW Advanced HTLM5 and CSS3** 2016
-
-_CIW_
-
-**VOLUNTEER**
-
-**Software Developer** Jun 2023 - Present
-
-_Virufy_
-
-- Development automation in Google Workspace that automated checking names against TSDB, significantly improving efficiency in human resources projects.
-- I have demonstrated my organizational skills by developing a Docker development container to improve the developer experience.
-- Assisted in debugging and troubleshooting React JavaScript application.
-
-**Software Engenier** Nov 2020 - Oct 2021
-
-_iSeaTree_
-
-- Developed a vital location service component, ensuring seamless integration for an enhanced user experience.
-- Swiftly resolved reported bugs by identifying root causes and implementing effective fixes.
-- Own the leadership of upgraded project dependencies, ensuring optimal performance and security.`
-
-
+**Scientific Computing with Python**, 2021,_FreeCodeCamp_
+`
+console.log(resume_1)
 const Resume = () => {
         // Call the fetch function
-        
+
     return (
       <Wrapper>
-        
+
         <MainColumn>
           <ReactMarkdown >
             {resume}
           </ReactMarkdown>
         </MainColumn>
       </Wrapper>
-      
+
     );
   };
-  
+
   export default Resume;
