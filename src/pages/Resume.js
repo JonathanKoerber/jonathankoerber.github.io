@@ -79,9 +79,31 @@ _______
 
 **IT Automation with Python**,\t2021 _Google_
 
-**JavaScript Algorithms and Data Structures**,\t2021, _FreeCodeCame_
+**JavaScript Algorithms and Data Structures**, 2021, _FreeCodeCame_
 
 **Scientific Computing with Python**, 2021,_FreeCodeCamp_
+
+#### VOLUNTEER
+_____
+#### Event Host, Presenter \tJun 2023 - Present
+**SDE SKILLS**, Seattle WA
+> - Hosted a bi-weekly meetup event, leading the group in solving LeetCode problems.
+> - Coordinated with a core group of volunteers and managed venue logistics.
+> - Oversaw event announcements, setup, and breakdown.
+          
+
+#### Software Developer, Jun 2023 – October 2023
+**Virufy**, _Remote_
+> - Developed a JavaScript script to automate name-checking against TSDB, significantly improving efficiency in human resources projects.
+> - Created a development container to streamline the on-boarding process.
+> - Assisted in debugging and troubleshooting a React JavaScript application.
+
+
+#### Software Engenier \tNov 2020 - Oct 2021
+**iSeaTree**, _Remote_
+> - Developed a critical location service component, ensuring seamless integration for an enhanced user experience.
+> - Swiftly resolved reported bugs by identifying root causes and implementing effective fixes.
+> - Proactively upgraded project dependencies to ensure optimal performance and security.
 `
 console.log(resume_1)
 const Resume = () => {
