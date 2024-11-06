@@ -11,10 +11,30 @@ import cli from "../images/cli.png";
 import open_source from "../images/open-source-code.png";
 import volunteer from "../images/volunteer.png";
 import message_board from "../images/message-board.png";
+import openstack from "../images/openstack.png";
+import sdeSkills from "../images/sde-skills.png";
 import vurify_logo from "../images/viryfy.jpeg";
 import iSeaTree from "../images/iSeaTree.jpeg";
 
 const osProjects = [
+    {
+        imgUrl: openstack,
+        title: "Open Stack",
+        type: "Internship",
+        role: "Software Engineer",
+        body: `Implement OpenAPI schemas of API Endpoint for Manila.`,
+        websiteLink: "https://www.openstack.org/",
+        githubLink: "https://review.opendev.org/dashboard/Jonathankoerber"
+    },
+    {
+        imgUrl: sdeSkills,
+        title: "SDE Skills",
+        type: "Group",
+        role: "Event Host, Presenter",
+        body: `Hosted a bi-weekly meetup event, leading the group in solving LeetCode problems..`,
+        websiteLink: "https://www.meetup.com/skillets/",
+        githubLink: "https://github.com/JonathanKoerber/template_repos"
+    },
     {
         imgUrl: cli,
         title: "Templating Repo",
@@ -22,7 +42,7 @@ const osProjects = [
         role: "Software Engineer",
         body: `This CLI tool provides functionality for repository management and organization.`,
         websiteLink: "https://github.com/JonathanKoerber/template_repos",
-        githubLink: "https://github.com/JonathanKoerber/template_repos"
+        githubLink: "https://github.com/sde-skills/meetupHandoutsAndCode"
 
         },
     {

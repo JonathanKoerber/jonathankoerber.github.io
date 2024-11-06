@@ -111,7 +111,6 @@ const Resume = () => {
 
     return (
       <Wrapper>
-
         <MainColumn>
           <ReactMarkdown >
             {resume}

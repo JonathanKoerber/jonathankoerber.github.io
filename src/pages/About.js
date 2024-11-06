@@ -36,6 +36,7 @@ Jonathan Koerber
 const ColumnWrapper = styled.div`
     display: flex;
     flex-direction: row;
+  margin: 0 5% 0 20%;
     /* Mobile devices (portrait and landscape) */
 @media only screen and (max-width: 575px) {
   /* CSS for small screens (e.g., smartphones) */
