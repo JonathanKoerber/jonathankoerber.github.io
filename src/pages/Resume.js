@@ -27,7 +27,8 @@ const resume = `
 
 # Jonathan Koerber
 
-Seattle, WA 98116
+##### Seattle, WA 98116
+##### [LinkedIn](https://www.linkedin.com/in/jonathan-koerber/) - [Email](mailto:jonathankoerber%40gmail.com) -  [GitHub](https://github.com/JonathanKoerber?tab=repositories)
 ____
 
 >I'm an MSCS student at City U Seattle and work as a teaching assistant, where I apply critical thinking and technical knowledge to provide end-user support to students and faculty. My role involves connecting with individuals to share my technical expertise and enhance their computer skills.
