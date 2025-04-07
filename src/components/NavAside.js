@@ -19,7 +19,6 @@ const ColumnWrapper = styled.div`
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: #fff;
 }
 
 /* Medium desktops */

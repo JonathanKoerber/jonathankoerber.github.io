@@ -12,11 +12,21 @@ import open_source from "../images/open-source-code.png";
 import volunteer from "../images/volunteer.png";
 import message_board from "../images/message-board.png";
 import openstack from "../images/openstack.png";
+import HTTPserver from "../images/codeCraftersHTTPServer.svg"
 import sdeSkills from "../images/sde-skills.png";
 import vurify_logo from "../images/viryfy.jpeg";
 import iSeaTree from "../images/iSeaTree.jpeg";
 
 const osProjects = [
+    {
+        imgUrl: HTTPserver,
+        title: "HTTP Server",
+        type: "Project",
+        role: "Software Engineer",
+        body: `Completed the Build your own HTTP server course from Code Crafters.`,
+        websiteLink: "https://app.codecrafters.io/catalog",
+        githubLink: "https://github.com/JonathanKoerber/codecrafters-http-server-go",
+    },
     {
         imgUrl: openstack,
         title: "Open Stack",
